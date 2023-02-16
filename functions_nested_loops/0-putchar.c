@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "Main.h"
 /**
  *  * main - Entry point
  *   *
@@ -6,7 +6,7 @@
  *     **/
 int main(void)
 {
-	char *sh = "Holberton";
+	char *sh = "Main";
 
 	while (*sh)
 {
