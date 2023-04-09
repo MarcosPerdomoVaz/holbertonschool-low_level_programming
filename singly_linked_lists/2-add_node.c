@@ -18,7 +18,7 @@ list_t *add_node(list_t **head, const char *str)
 	free(node);
 	return (node);
 }
-	node->str = malloc(sizeof(char) * _strlen(str) + 1);
+	node->str = malloc(sizeof(char) * __strlen(str) + 1);
 	if (!node->str)
 {
 	free(node);
